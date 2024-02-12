@@ -1,0 +1,39 @@
+.article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--gray-700);
+    margin-top: 20px;
+    padding: 20px 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.listcontent {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.checkboxCustom {
+    appearance: none; 
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    border: 1px solid var(--gray-300);
+    cursor: pointer;
+}
+
+.checkboxCustom:checked {
+    background-color: var(--blue-500);
+}
+.article button {
+    border: none;
+    background: transparent;
+    color: var(--gray-300);
+    font-size: 1.2rem;
+}
+.article button :hover {
+    color: var(--red-500);
+    cursor: pointer;
+}
